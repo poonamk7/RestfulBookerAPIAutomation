@@ -1,0 +1,16 @@
+com\restfulbooker\restapi\annotations\FrameworkAnnotation.class
+com\restfulbooker\restapi\pojo\BookingResponse.class
+com\restfulbooker\restapi\listeners\TestListener.class
+com\restfulbooker\restapi\reports\ExtentLogger.class
+com\restfulbooker\restapi\utils\RandomUtils.class
+com\restfulbooker\restapi\constants\FrameworkConstants.class
+com\restfulbooker\restapi\reports\ExtentManager.class
+com\restfulbooker\restapi\reports\ExtentReport.class
+com\restfulbooker\restapi\utils\PropertyUtils.class
+com\restfulbooker\restapi\utils\FakerUtils.class
+com\restfulbooker\restapi\pojo\BookingBuilder.class
+com\restfulbooker\restapi\pojo\BookingDates.class
+com\restfulbooker\restapi\enums\PropertiesType.class
+com\restfulbooker\restapi\requestbuilder\RequestBuilder.class
+com\restfulbooker\restapi\pojo\Booking.class
+com\restfulbooker\restapi\utils\ApiUtils.class

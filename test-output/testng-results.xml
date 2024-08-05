@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T09:26:40 IST" name="Suite" finished-at="2024-08-05T09:27:06 IST" duration-ms="25748">
+    <groups>
+    </groups>
+    <test started-at="2024-08-05T09:26:40 IST" name="Test" finished-at="2024-08-05T09:27:06 IST" duration-ms="25748">
+      <class name="com.restfulbooker.restapi.tests.PutRequestTest">
+        <test-method signature="updateBookingDetail()[pri:0, instance:com.restfulbooker.restapi.tests.PutRequestTest@1aafa419]" started-at="2024-08-05T09:26:57 IST" name="updateBookingDetail" description="Validate updation of Booking detail using PUT request" finished-at="2024-08-05T09:27:00 IST" duration-ms="3056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingDetail -->
+      </class> <!-- com.restfulbooker.restapi.tests.PutRequestTest -->
+      <class name="com.restfulbooker.restapi.tests.PatchRequestTest">
+        <test-method signature="partialUpdateBookingDetail()[pri:0, instance:com.restfulbooker.restapi.tests.PatchRequestTest@47eaca72]" started-at="2024-08-05T09:27:00 IST" name="partialUpdateBookingDetail" description="Validate partial upadte of Booking Detail using PATCH request" finished-at="2024-08-05T09:27:03 IST" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialUpdateBookingDetail -->
+      </class> <!-- com.restfulbooker.restapi.tests.PatchRequestTest -->
+      <class name="com.restfulbooker.restapi.tests.GetRequestTests">
+        <test-method signature="getBookingDetail()[pri:0, instance:com.restfulbooker.restapi.tests.GetRequestTests@7c7b252e]" started-at="2024-08-05T09:26:41 IST" name="getBookingDetail" description="Validate specific Booking detail based on BookingId using GET request" finished-at="2024-08-05T09:26:48 IST" duration-ms="6916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingDetail -->
+        <test-method signature="getBookingsDetail()[pri:0, instance:com.restfulbooker.restapi.tests.GetRequestTests@7c7b252e]" started-at="2024-08-05T09:26:48 IST" name="getBookingsDetail" description="Validate all the Booking details are retrieved using GET request" finished-at="2024-08-05T09:26:50 IST" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingsDetail -->
+      </class> <!-- com.restfulbooker.restapi.tests.GetRequestTests -->
+      <class name="com.restfulbooker.restapi.tests.PostRequestTests">
+        <test-method signature="createBookingTest()[pri:0, instance:com.restfulbooker.restapi.tests.PostRequestTests@a1153bc]" started-at="2024-08-05T09:26:50 IST" name="createBookingTest" description="Validate creation of Booking detail on srver using POST request" finished-at="2024-08-05T09:26:51 IST" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingTest -->
+        <test-method signature="createBookingWithExternalFile()[pri:0, instance:com.restfulbooker.restapi.tests.PostRequestTests@a1153bc]" started-at="2024-08-05T09:26:51 IST" name="createBookingWithExternalFile" description="Validation creation of Booking detail using external file with POST request" finished-at="2024-08-05T09:26:53 IST" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingWithExternalFile -->
+        <test-method signature="postRequestWithMultiplData(java.util.Map)[pri:0, instance:com.restfulbooker.restapi.tests.PostRequestTests@a1153bc]" started-at="2024-08-05T09:26:53 IST" name="postRequestWithMultiplData" description="Validate creation of multiple Booking details using DataProvide with POST request" data-provider="dataProvider" finished-at="2024-08-05T09:26:54 IST" duration-ms="1390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=ollie, checkin=2024-08-01, totalPrice=4883, additionalNeeds=Halfbeak for Dinner, depositpaid=true, checkout=2024-08-02, lastname=breitenberg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestWithMultiplData -->
+        <test-method signature="postRequestWithMultiplData(java.util.Map)[pri:0, instance:com.restfulbooker.restapi.tests.PostRequestTests@a1153bc]" started-at="2024-08-05T09:26:54 IST" name="postRequestWithMultiplData" description="Validate creation of multiple Booking details using DataProvide with POST request" data-provider="dataProvider" finished-at="2024-08-05T09:26:56 IST" duration-ms="1373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=gaynelle, checkin=2024-08-03, totalPrice=2317, additionalNeeds=Japanese spanish mackerel for Dinner, depositpaid=true, checkout=2024-08-04, lastname=leuschke}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestWithMultiplData -->
+        <test-method signature="postRequestWithMultiplData(java.util.Map)[pri:0, instance:com.restfulbooker.restapi.tests.PostRequestTests@a1153bc]" started-at="2024-08-05T09:26:56 IST" name="postRequestWithMultiplData" description="Validate creation of multiple Booking details using DataProvide with POST request" data-provider="dataProvider" finished-at="2024-08-05T09:26:57 IST" duration-ms="1422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=roxie, checkin=2024-08-05, totalPrice=2105, additionalNeeds=Japanese sea bass for Dinner, depositpaid=true, checkout=2024-08-06, lastname=labadie}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestWithMultiplData -->
+      </class> <!-- com.restfulbooker.restapi.tests.PostRequestTests -->
+      <class name="com.restfulbooker.restapi.tests.DeleteRequestTest">
+        <test-method signature="deleteBookingDetail()[pri:0, instance:com.restfulbooker.restapi.tests.DeleteRequestTest@55141def]" started-at="2024-08-05T09:27:03 IST" name="deleteBookingDetail" description="Validate deletion Booking detail using DELETE request" finished-at="2024-08-05T09:27:06 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingDetail -->
+      </class> <!-- com.restfulbooker.restapi.tests.DeleteRequestTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

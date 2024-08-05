@@ -1,0 +1,6 @@
+com\restfulbooker\restapi\tests\PostRequestTests.class
+com\restfulbooker\restapi\tests\PutRequestTest.class
+com\restfulbooker\restapi\tests\BaseTest.class
+com\restfulbooker\restapi\tests\DeleteRequestTest.class
+com\restfulbooker\restapi\tests\GetRequestTests.class
+com\restfulbooker\restapi\tests\PatchRequestTest.class

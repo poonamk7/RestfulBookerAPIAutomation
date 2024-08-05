@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 05 10:12:27 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18592 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.PostRequestTests.postRequestWithMultiplData()'><b>postRequestWithMultiplData</b><br>Test class: com.restfulbooker.restapi.tests.PostRequestTests<br>Test method: Validate creation of multiple Booking details using DataProvide with POST request<br>Parameters: {firstname=dino, checkin=2024-08-03, totalPrice=1520, additionalNeeds=Crab for Dinner, depositpaid=true, checkout=2024-08-04, lastname=schroeder}</td>
+<td></td>
+<td>1</td>
+<td>com.restfulbooker.restapi.tests.PostRequestTests@498d318c</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.PostRequestTests.createBookingTest()'><b>createBookingTest</b><br>Test class: com.restfulbooker.restapi.tests.PostRequestTests<br>Test method: Validate creation of Booking detail on srver using POST request</td>
+<td></td>
+<td>1</td>
+<td>com.restfulbooker.restapi.tests.PostRequestTests@498d318c</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.PutRequestTest.updateBookingDetail()'><b>updateBookingDetail</b><br>Test class: com.restfulbooker.restapi.tests.PutRequestTest<br>Test method: Validate updation of Booking detail using PUT request</td>
+<td></td>
+<td>2</td>
+<td>com.restfulbooker.restapi.tests.PutRequestTest@6e171cd7</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.PostRequestTests.postRequestWithMultiplData()'><b>postRequestWithMultiplData</b><br>Test class: com.restfulbooker.restapi.tests.PostRequestTests<br>Test method: Validate creation of multiple Booking details using DataProvide with POST request<br>Parameters: {firstname=jennifer, checkin=2024-08-05, totalPrice=4710, additionalNeeds=Japanese sea bass for Dinner, depositpaid=true, checkout=2024-08-06, lastname=kling}</td>
+<td></td>
+<td>1</td>
+<td>com.restfulbooker.restapi.tests.PostRequestTests@498d318c</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.PostRequestTests.createBookingWithExternalFile()'><b>createBookingWithExternalFile</b><br>Test class: com.restfulbooker.restapi.tests.PostRequestTests<br>Test method: Validation creation of Booking detail using external file with POST request</td>
+<td></td>
+<td>1</td>
+<td>com.restfulbooker.restapi.tests.PostRequestTests@498d318c</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.GetRequestTests.getBookingsDetail()'><b>getBookingsDetail</b><br>Test class: com.restfulbooker.restapi.tests.GetRequestTests<br>Test method: Validate all the Booking details are retrieved using GET request</td>
+<td></td>
+<td>1</td>
+<td>com.restfulbooker.restapi.tests.GetRequestTests@1afd44cb</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.DeleteRequestTest.deleteBookingDetail()'><b>deleteBookingDetail</b><br>Test class: com.restfulbooker.restapi.tests.DeleteRequestTest<br>Test method: Validate deletion Booking detail using DELETE request</td>
+<td></td>
+<td>2</td>
+<td>com.restfulbooker.restapi.tests.DeleteRequestTest@795cd85e</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.GetRequestTests.getBookingDetail()'><b>getBookingDetail</b><br>Test class: com.restfulbooker.restapi.tests.GetRequestTests<br>Test method: Validate specific Booking detail based on BookingId using GET request</td>
+<td></td>
+<td>5</td>
+<td>com.restfulbooker.restapi.tests.GetRequestTests@1afd44cb</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.PatchRequestTest.partialUpdateBookingDetail()'><b>partialUpdateBookingDetail</b><br>Test class: com.restfulbooker.restapi.tests.PatchRequestTest<br>Test method: Validate partial upadte of Booking Detail using PATCH request</td>
+<td></td>
+<td>2</td>
+<td>com.restfulbooker.restapi.tests.PatchRequestTest@402bba4f</td></tr>
+<tr>
+<td title='com.restfulbooker.restapi.tests.PostRequestTests.postRequestWithMultiplData()'><b>postRequestWithMultiplData</b><br>Test class: com.restfulbooker.restapi.tests.PostRequestTests<br>Test method: Validate creation of multiple Booking details using DataProvide with POST request<br>Parameters: {firstname=sherrill, checkin=2024-08-01, totalPrice=1716, additionalNeeds=Alaskan pink shrimp for Dinner, depositpaid=true, checkout=2024-08-02, lastname=dach}</td>
+<td></td>
+<td>1</td>
+<td>com.restfulbooker.restapi.tests.PostRequestTests@498d318c</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.restfulbooker.restapi.listeners.TestListener"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.restfulbooker.restapi.tests.GetRequestTests"/>
+      <class name="com.restfulbooker.restapi.tests.PostRequestTests"/>
+      <class name="com.restfulbooker.restapi.tests.PutRequestTest"/>
+      <class name="com.restfulbooker.restapi.tests.PatchRequestTest"/>
+      <class name="com.restfulbooker.restapi.tests.DeleteRequestTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

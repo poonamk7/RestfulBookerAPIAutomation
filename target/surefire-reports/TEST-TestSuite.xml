@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="19.776" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\POONAM\Desktop\Rest Assured Framework\RestfulBookerAPIFramework\target\test-classes;C:\Users\POONAM\Desktop\Rest Assured Framework\RestfulBookerAPIFramework\target\classes;C:\Users\POONAM\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\POONAM\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\POONAM\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\POONAM\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\POONAM\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\POONAM\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\POONAM\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\POONAM\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\POONAM\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\POONAM\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\POONAM\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\POONAM\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\POONAM\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\POONAM\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\POONAM\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\POONAM\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\POONAM\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\POONAM\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\POONAM\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\POONAM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\POONAM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\POONAM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\POONAM\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\POONAM\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\POONAM\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\POONAM\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\POONAM\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\POONAM\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\POONAM\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\POONAM\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\POONAM\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\POONAM\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\POONAM\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\POONAM\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\POONAM\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\POONAM\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\POONAM\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\POONAM\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\POONAM\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\POONAM\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\POONAM\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\POONAM\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\POONAM\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\POONAM\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\POONAM\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\POONAM\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\POONAM\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\POONAM\AppData\Local\Temp\surefire3769025278943978110\surefirebooter-20240805101226407_3.jar C:\Users\POONAM\AppData\Local\Temp\surefire3769025278943978110 2024-08-05T10-12-25_989-jvmRun1 surefire-20240805101226407_1tmp surefire_0-20240805101226407_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\POONAM\Desktop\Rest Assured Framework\RestfulBookerAPIFramework\target\test-classes;C:\Users\POONAM\Desktop\Rest Assured Framework\RestfulBookerAPIFramework\target\classes;C:\Users\POONAM\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\POONAM\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\POONAM\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\POONAM\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\POONAM\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\POONAM\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\POONAM\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\POONAM\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\POONAM\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\POONAM\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\POONAM\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\POONAM\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\POONAM\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\POONAM\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\POONAM\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\POONAM\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\POONAM\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\POONAM\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\POONAM\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\POONAM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\POONAM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\POONAM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\POONAM\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\POONAM\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\POONAM\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\POONAM\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\POONAM\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\POONAM\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\POONAM\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\POONAM\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\POONAM\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\POONAM\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\POONAM\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\POONAM\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\POONAM\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\POONAM\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\POONAM\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\POONAM\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\POONAM\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\POONAM\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\POONAM\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\POONAM\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\POONAM\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\POONAM\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\POONAM\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\POONAM\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\POONAM\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\POONAM\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\POONAM"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\POONAM\Desktop\Rest Assured Framework\RestfulBookerAPIFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\POONAM\AppData\Local\Temp\surefire3769025278943978110\surefirebooter-20240805101226407_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="POONAM"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\POONAM\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\POONAM\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Users\POONAM\Desktop\Rest Assured Framework\RestfulBookerAPIFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Git\bin;;C:\Program Files\dotnet\;C:\Users\POONAM\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="getBookingDetail" classname="com.restfulbooker.restapi.tests.GetRequestTests" time="5.394">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "leland",
+    "lastname": "rodriguez",
+    "totalprice": 1719,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-01",
+        "checkout": "2024-08-10"
+    },
+    "additionalneeds": "Crab for Dinner"
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/666
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=666
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getBookingsDetail" classname="com.restfulbooker.restapi.tests.GetRequestTests" time="1.025">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="createBookingTest" classname="com.restfulbooker.restapi.tests.PostRequestTests" time="1.334">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "werner",
+    "lastname": "kulas",
+    "totalprice": 2937,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-05",
+        "checkout": "2024-08-10"
+    },
+    "additionalneeds": "Bloody clam for Dinner"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createBookingWithExternalFile" classname="com.restfulbooker.restapi.tests.PostRequestTests" time="1.007">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Mathew",
+    "lastname": "Stewart",
+    "totalprice": 152,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-09-01",
+        "checkout": "2024-09-05"
+    },
+    "additionalneeds": "Breakfast"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postRequestWithMultiplData[{firstname=sherrill, checkin=2024-08-01, totalPrice=1716, additionalNeeds=Alaskan pink shrimp for Dinner, depositpaid=true, checkout=2024-08-02, lastname=dach}](1)" classname="com.restfulbooker.restapi.tests.PostRequestTests" time="1.039">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "sherrill",
+    "lastname": "dach",
+    "totalprice": 1716,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-01",
+        "checkout": "2024-08-02"
+    },
+    "additionalneeds": "Alaskan pink shrimp for Dinner"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postRequestWithMultiplData[{firstname=dino, checkin=2024-08-03, totalPrice=1520, additionalNeeds=Crab for Dinner, depositpaid=true, checkout=2024-08-04, lastname=schroeder}](2)" classname="com.restfulbooker.restapi.tests.PostRequestTests" time="1.079">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "dino",
+    "lastname": "schroeder",
+    "totalprice": 1520,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-03",
+        "checkout": "2024-08-04"
+    },
+    "additionalneeds": "Crab for Dinner"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postRequestWithMultiplData[{firstname=jennifer, checkin=2024-08-05, totalPrice=4710, additionalNeeds=Japanese sea bass for Dinner, depositpaid=true, checkout=2024-08-06, lastname=kling}](3)" classname="com.restfulbooker.restapi.tests.PostRequestTests" time="1.006">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "jennifer",
+    "lastname": "kling",
+    "totalprice": 4710,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-05",
+        "checkout": "2024-08-06"
+    },
+    "additionalneeds": "Japanese sea bass for Dinner"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateBookingDetail" classname="com.restfulbooker.restapi.tests.PutRequestTest" time="2.052">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "carroll",
+    "lastname": "price",
+    "totalprice": 2448,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-01",
+        "checkout": "2024-08-03"
+    },
+    "additionalneeds": "Bastard halibut for Dinner"
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/752
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=752
+Headers:		Accept=application/json
+				Cookie=token=abc123
+				Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "carroll",
+    "lastname": "price",
+    "totalprice": 2448,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-01",
+        "checkout": "2024-08-03"
+    },
+    "additionalneeds": "Mackerel for Dinner"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="partialUpdateBookingDetail" classname="com.restfulbooker.restapi.tests.PatchRequestTest" time="2.152">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "sue",
+    "lastname": "hessel",
+    "totalprice": 3783,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2024-08-05",
+        "checkout": "2024-08-07"
+    },
+    "additionalneeds": "Japanese spanish mackerel for Dinner"
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/764
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=764
+Headers:		Accept=application/json
+				Cookie=token=abc123
+				Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "grisel",
+    "lastname": "greenfelder",
+    "totalprice": 3783,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-05",
+        "checkout": "2024-08-07"
+    },
+    "additionalneeds": "Japanese spanish mackerel for Dinner"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookingDetail" classname="com.restfulbooker.restapi.tests.DeleteRequestTest" time="2.065">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "scotty",
+    "lastname": "dibbert",
+    "totalprice": 4433,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-06",
+        "checkout": "2024-08-10"
+    },
+    "additionalneeds": "Salmon roe for Dinner"
+}
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/788
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=788
+Headers:		Accept=application/json
+				Cookie=token=abc123
+				Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+</testsuite>

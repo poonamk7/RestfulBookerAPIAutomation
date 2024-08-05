@@ -1,0 +1,3006 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 5, 2024 10:12:27 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Poonam</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Functional</a><a class="dropdown-item" href="#">Smoke</a><a class="dropdown-item" href="#">Regression</a><a class="dropdown-item" href="#">Sanity</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="Poonam"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate specific Booking detail based on BookingId using GET request</p>
+            <p class="text-sm">
+              <span>10:12:28 am</span> / <span>00:00:05:389</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate specific Booking detail based on BookingId using GET request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:28 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:33 am</span>
+<span class='badge badge-default'>00:00:05:389</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:33 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
+    "firstname": "leland",
+    "lastname": "rodriguez",
+    "totalprice": 1719,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-01",
+        "checkout": "2024-08-10"
+    },
+    "additionalneeds": "Crab for Dinner"
+}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:33 am</td>
+        <td>
+          getBookingDetail is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="Poonam"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate all the Booking details are retrieved using GET request</p>
+            <p class="text-sm">
+              <span>10:12:33 am</span> / <span>00:00:01:024</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate all the Booking details are retrieved using GET request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:33 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:34 am</span>
+<span class='badge badge-default'>00:00:01:024</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:34 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create([
+    {
+        "bookingid": 656
+    },
+    {
+        "bookingid": 519
+    },
+    {
+        "bookingid": 663
+    },
+    {
+        "bookingid": 59
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 290
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 280
+    },
+    {
+        "bookingid": 97
+    },
+    {
+        "bookingid": 589
+    },
+    {
+        "bookingid": 171
+    },
+    {
+        "bookingid": 237
+    },
+    {
+        "bookingid": 143
+    },
+    {
+        "bookingid": 564
+    },
+    {
+        "bookingid": 335
+    },
+    {
+        "bookingid": 63
+    },
+    {
+        "bookingid": 342
+    },
+    {
+        "bookingid": 286
+    },
+    {
+        "bookingid": 577
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 666
+    },
+    {
+        "bookingid": 253
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 490
+    },
+    {
+        "bookingid": 234
+    },
+    {
+        "bookingid": 399
+    },
+    {
+        "bookingid": 341
+    },
+    {
+        "bookingid": 562
+    },
+    {
+        "bookingid": 630
+    },
+    {
+        "bookingid": 101
+    },
+    {
+        "bookingid": 60
+    },
+    {
+        "bookingid": 301
+    },
+    {
+        "bookingid": 595
+    },
+    {
+        "bookingid": 194
+    },
+    {
+        "bookingid": 130
+    },
+    {
+        "bookingid": 569
+    },
+    {
+        "bookingid": 661
+    },
+    {
+        "bookingid": 665
+    },
+    {
+        "bookingid": 461
+    },
+    {
+        "bookingid": 275
+    },
+    {
+        "bookingid": 174
+    },
+    {
+        "bookingid": 419
+    },
+    {
+        "bookingid": 440
+    },
+    {
+        "bookingid": 48
+    },
+    {
+        "bookingid": 85
+    },
+    {
+        "bookingid": 479
+    },
+    {
+        "bookingid": 117
+    },
+    {
+        "bookingid": 245
+    },
+    {
+        "bookingid": 146
+    },
+    {
+        "bookingid": 175
+    },
+    {
+        "bookingid": 172
+    },
+    {
+        "bookingid": 463
+    },
+    {
+        "bookingid": 388
+    },
+    {
+        "bookingid": 559
+    },
+    {
+        "bookingid": 53
+    },
+    {
+        "bookingid": 437
+    },
+    {
+        "bookingid": 551
+    },
+    {
+        "bookingid": 378
+    },
+    {
+        "bookingid": 392
+    },
+    {
+        "bookingid": 535
+    },
+    {
+        "bookingid": 92
+    },
+    {
+        "bookingid": 627
+    },
+    {
+        "bookingid": 558
+    },
+    {
+        "bookingid": 620
+    },
+    {
+        "bookingid": 55
+    },
+    {
+        "bookingid": 554
+    },
+    {
+        "bookingid": 38
+    },
+    {
+        "bookingid": 525
+    },
+    {
+        "bookingid": 383
+    },
+    {
+        "bookingid": 193
+    },
+    {
+        "bookingid": 109
+    },
+    {
+        "bookingid": 78
+    },
+    {
+        "bookingid": 267
+    },
+    {
+        "bookingid": 294
+    },
+    {
+        "bookingid": 458
+    },
+    {
+        "bookingid": 96
+    },
+    {
+        "bookingid": 597
+    },
+    {
+        "bookingid": 305
+    },
+    {
+        "bookingid": 111
+    },
+    {
+        "bookingid": 468
+    },
+    {
+        "bookingid": 46
+    },
+    {
+        "bookingid": 365
+    },
+    {
+        "bookingid": 389
+    },
+    {
+        "bookingid": 596
+    },
+    {
+        "bookingid": 84
+    },
+    {
+        "bookingid": 112
+    },
+    {
+        "bookingid": 586
+    },
+    {
+        "bookingid": 324
+    },
+    {
+        "bookingid": 268
+    },
+    {
+        "bookingid": 353
+    },
+    {
+        "bookingid": 226
+    },
+    {
+        "bookingid": 163
+    },
+    {
+        "bookingid": 549
+    },
+    {
+        "bookingid": 309
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 113
+    },
+    {
+        "bookingid": 135
+    },
+    {
+        "bookingid": 626
+    },
+    {
+        "bookingid": 137
+    },
+    {
+        "bookingid": 121
+    },
+    {
+        "bookingid": 534
+    },
+    {
+        "bookingid": 25
+    },
+    {
+        "bookingid": 474
+    },
+    {
+        "bookingid": 47
+    },
+    {
+        "bookingid": 653
+    },
+    {
+        "bookingid": 61
+    },
+    {
+        "bookingid": 14
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 640
+    },
+    {
+        "bookingid": 536
+    },
+    {
+        "bookingid": 497
+    },
+    {
+        "bookingid": 57
+    },
+    {
+        "bookingid": 153
+    },
+    {
+        "bookingid": 646
+    },
+    {
+        "bookingid": 89
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 402
+    },
+    {
+        "bookingid": 592
+    },
+    {
+        "bookingid": 505
+    },
+    {
+        "bookingid": 106
+    },
+    {
+        "bookingid": 420
+    },
+    {
+        "bookingid": 415
+    },
+    {
+        "bookingid": 451
+    },
+    {
+        "bookingid": 149
+    },
+    {
+        "bookingid": 616
+    },
+    {
+        "bookingid": 213
+    },
+    {
+        "bookingid": 162
+    },
+    {
+        "bookingid": 540
+    },
+    {
+        "bookingid": 125
+    },
+    {
+        "bookingid": 486
+    },
+    {
+        "bookingid": 206
+    },
+    {
+        "bookingid": 523
+    },
+    {
+        "bookingid": 593
+    },
+    {
+        "bookingid": 619
+    },
+    {
+        "bookingid": 204
+    },
+    {
+        "bookingid": 510
+    },
+    {
+        "bookingid": 156
+    },
+    {
+        "bookingid": 209
+    },
+    {
+        "bookingid": 181
+    },
+    {
+        "bookingid": 632
+    },
+    {
+        "bookingid": 58
+    },
+    {
+        "bookingid": 50
+    },
+    {
+        "bookingid": 31
+    },
+    {
+        "bookingid": 675
+    },
+    {
+        "bookingid": 506
+    },
+    {
+        "bookingid": 427
+    },
+    {
+        "bookingid": 464
+    },
+    {
+        "bookingid": 182
+    },
+    {
+        "bookingid": 417
+    },
+    {
+        "bookingid": 404
+    },
+    {
+        "bookingid": 32
+    },
+    {
+        "bookingid": 513
+    },
+    {
+        "bookingid": 679
+    },
+    {
+        "bookingid": 561
+    },
+    {
+        "bookingid": 494
+    },
+    {
+        "bookingid": 431
+    },
+    {
+        "bookingid": 403
+    },
+    {
+        "bookingid": 325
+    },
+    {
+        "bookingid": 634
+    },
+    {
+        "bookingid": 127
+    },
+    {
+        "bookingid": 375
+    },
+    {
+        "bookingid": 445
+    },
+    {
+        "bookingid": 647
+    },
+    {
+        "bookingid": 37
+    },
+    {
+        "bookingid": 179
+    },
+    {
+        "bookingid": 259
+    },
+    {
+        "bookingid": 339
+    },
+    {
+        "bookingid": 374
+    },
+    {
+        "bookingid": 643
+    },
+    {
+        "bookingid": 79
+    },
+    {
+        "bookingid": 655
+    },
+    {
+        "bookingid": 366
+    },
+    {
+        "bookingid": 200
+    },
+    {
+        "bookingid": 131
+    },
+    {
+        "bookingid": 581
+    },
+    {
+        "bookingid": 105
+    },
+    {
+        "bookingid": 103
+    },
+    {
+        "bookingid": 219
+    },
+    {
+        "bookingid": 30
+    },
+    {
+        "bookingid": 411
+    },
+    {
+        "bookingid": 405
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 447
+    },
+    {
+        "bookingid": 93
+    },
+    {
+        "bookingid": 76
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 680
+    },
+    {
+        "bookingid": 516
+    },
+    {
+        "bookingid": 322
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 279
+    },
+    {
+        "bookingid": 24
+    },
+    {
+        "bookingid": 216
+    },
+    {
+        "bookingid": 261
+    },
+    {
+        "bookingid": 537
+    },
+    {
+        "bookingid": 229
+    },
+    {
+        "bookingid": 67
+    },
+    {
+        "bookingid": 306
+    },
+    {
+        "bookingid": 252
+    },
+    {
+        "bookingid": 126
+    },
+    {
+        "bookingid": 587
+    },
+    {
+        "bookingid": 390
+    },
+    {
+        "bookingid": 281
+    },
+    {
+        "bookingid": 140
+    },
+    {
+        "bookingid": 336
+    },
+    {
+        "bookingid": 254
+    },
+    {
+        "bookingid": 575
+    },
+    {
+        "bookingid": 522
+    },
+    {
+        "bookingid": 518
+    },
+    {
+        "bookingid": 251
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 285
+    },
+    {
+        "bookingid": 212
+    },
+    {
+        "bookingid": 170
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 65
+    },
+    {
+        "bookingid": 568
+    },
+    {
+        "bookingid": 560
+    },
+    {
+        "bookingid": 75
+    },
+    {
+        "bookingid": 40
+    },
+    {
+        "bookingid": 134
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 418
+    },
+    {
+        "bookingid": 110
+    },
+    {
+        "bookingid": 225
+    },
+    {
+        "bookingid": 66
+    },
+    {
+        "bookingid": 434
+    },
+    {
+        "bookingid": 147
+    },
+    {
+        "bookingid": 288
+    },
+    {
+        "bookingid": 602
+    },
+    {
+        "bookingid": 477
+    },
+    {
+        "bookingid": 220
+    },
+    {
+        "bookingid": 578
+    },
+    {
+        "bookingid": 359
+    },
+    {
+        "bookingid": 603
+    },
+    {
+        "bookingid": 548
+    },
+    {
+        "bookingid": 662
+    },
+    {
+        "bookingid": 56
+    },
+    {
+        "bookingid": 307
+    },
+    {
+        "bookingid": 615
+    },
+    {
+        "bookingid": 26
+    },
+    {
+        "bookingid": 492
+    },
+    {
+        "bookingid": 667
+    },
+    {
+        "bookingid": 148
+    },
+    {
+        "bookingid": 173
+    },
+    {
+        "bookingid": 166
+    },
+    {
+        "bookingid": 334
+    },
+    {
+        "bookingid": 644
+    },
+    {
+        "bookingid": 187
+    },
+    {
+        "bookingid": 681
+    },
+    {
+        "bookingid": 462
+    },
+    {
+        "bookingid": 385
+    },
+    {
+        "bookingid": 314
+    },
+    {
+        "bookingid": 122
+    },
+    {
+        "bookingid": 517
+    },
+    {
+        "bookingid": 192
+    },
+    {
+        "bookingid": 343
+    },
+    {
+        "bookingid": 188
+    },
+    {
+        "bookingid": 302
+    },
+    {
+        "bookingid": 493
+    },
+    {
+        "bookingid": 501
+    },
+    {
+        "bookingid": 358
+    },
+    {
+        "bookingid": 160
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 114
+    },
+    {
+        "bookingid": 670
+    },
+    {
+        "bookingid": 19
+    },
+    {
+        "bookingid": 450
+    },
+    {
+        "bookingid": 473
+    },
+    {
+        "bookingid": 49
+    },
+    {
+        "bookingid": 155
+    },
+    {
+        "bookingid": 543
+    },
+    {
+        "bookingid": 530
+    },
+    {
+        "bookingid": 167
+    },
+    {
+        "bookingid": 363
+    },
+    {
+        "bookingid": 232
+    },
+    {
+        "bookingid": 303
+    },
+    {
+        "bookingid": 397
+    },
+    {
+        "bookingid": 217
+    },
+    {
+        "bookingid": 222
+    },
+    {
+        "bookingid": 238
+    },
+    {
+        "bookingid": 180
+    },
+    {
+        "bookingid": 608
+    },
+    {
+        "bookingid": 613
+    },
+    {
+        "bookingid": 152
+    },
+    {
+        "bookingid": 165
+    },
+    {
+        "bookingid": 352
+    },
+    {
+        "bookingid": 481
+    },
+    {
+        "bookingid": 246
+    },
+    {
+        "bookingid": 455
+    },
+    {
+        "bookingid": 214
+    },
+    {
+        "bookingid": 503
+    },
+    {
+        "bookingid": 588
+    },
+    {
+        "bookingid": 570
+    },
+    {
+        "bookingid": 671
+    },
+    {
+        "bookingid": 81
+    },
+    {
+        "bookingid": 637
+    },
+    {
+        "bookingid": 574
+    },
+    {
+        "bookingid": 231
+    },
+    {
+        "bookingid": 74
+    },
+    {
+        "bookingid": 205
+    },
+    {
+        "bookingid": 439
+    },
+    {
+        "bookingid": 659
+    },
+    {
+        "bookingid": 442
+    },
+    {
+        "bookingid": 649
+    },
+    {
+        "bookingid": 282
+    },
+    {
+        "bookingid": 422
+    },
+    {
+        "bookingid": 43
+    },
+    {
+        "bookingid": 412
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 547
+    },
+    {
+        "bookingid": 243
+    },
+    {
+        "bookingid": 203
+    },
+    {
+        "bookingid": 186
+    },
+    {
+        "bookingid": 29
+    },
+    {
+        "bookingid": 327
+    },
+    {
+        "bookingid": 198
+    },
+    {
+        "bookingid": 677
+    },
+    {
+        "bookingid": 274
+    },
+    {
+        "bookingid": 624
+    },
+    {
+        "bookingid": 308
+    },
+    {
+        "bookingid": 601
+    },
+    {
+        "bookingid": 393
+    },
+    {
+        "bookingid": 386
+    },
+    {
+        "bookingid": 408
+    },
+    {
+        "bookingid": 197
+    },
+    {
+        "bookingid": 221
+    },
+    {
+        "bookingid": 636
+    },
+    {
+        "bookingid": 316
+    },
+    {
+        "bookingid": 297
+    },
+    {
+        "bookingid": 414
+    },
+    {
+        "bookingid": 556
+    },
+    {
+        "bookingid": 90
+    },
+    {
+        "bookingid": 347
+    },
+    {
+        "bookingid": 563
+    },
+    {
+        "bookingid": 45
+    },
+    {
+        "bookingid": 138
+    },
+    {
+        "bookingid": 369
+    },
+    {
+        "bookingid": 580
+    },
+    {
+        "bookingid": 83
+    },
+    {
+        "bookingid": 641
+    },
+    {
+        "bookingid": 495
+    },
+    {
+        "bookingid": 381
+    },
+    {
+        "bookingid": 370
+    },
+    {
+        "bookingid": 328
+    },
+    {
+        "bookingid": 633
+    },
+    {
+        "bookingid": 54
+    },
+    {
+        "bookingid": 128
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 273
+    },
+    {
+        "bookingid": 645
+    },
+    {
+        "bookingid": 39
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 610
+    },
+    {
+        "bookingid": 276
+    },
+    {
+        "bookingid": 337
+    },
+    {
+        "bookingid": 240
+    },
+    {
+        "bookingid": 120
+    },
+    {
+        "bookingid": 191
+    },
+    {
+        "bookingid": 36
+    },
+    {
+        "bookingid": 100
+    },
+    {
+        "bookingid": 345
+    },
+    {
+        "bookingid": 454
+    },
+    {
+        "bookingid": 487
+    },
+    {
+        "bookingid": 484
+    },
+    {
+        "bookingid": 266
+    },
+    {
+        "bookingid": 430
+    },
+    {
+        "bookingid": 364
+    },
+    {
+        "bookingid": 448
+    },
+    {
+        "bookingid": 64
+    },
+    {
+        "bookingid": 98
+    },
+    {
+        "bookingid": 321
+    },
+    {
+        "bookingid": 250
+    },
+    {
+        "bookingid": 476
+    },
+    {
+        "bookingid": 94
+    },
+    {
+        "bookingid": 244
+    },
+    {
+        "bookingid": 318
+    },
+    {
+        "bookingid": 669
+    },
+    {
+        "bookingid": 512
+    },
+    {
+        "bookingid": 623
+    },
+    {
+        "bookingid": 351
+    },
+    {
+        "bookingid": 289
+    },
+    {
+        "bookingid": 482
+    },
+    {
+        "bookingid": 676
+    },
+    {
+        "bookingid": 233
+    },
+    {
+        "bookingid": 311
+    },
+    {
+        "bookingid": 672
+    },
+    {
+        "bookingid": 594
+    },
+    {
+        "bookingid": 460
+    },
+    {
+        "bookingid": 372
+    },
+    {
+        "bookingid": 357
+    },
+    {
+        "bookingid": 87
+    },
+    {
+        "bookingid": 472
+    },
+    {
+        "bookingid": 70
+    },
+    {
+        "bookingid": 453
+    },
+    {
+        "bookingid": 542
+    },
+    {
+        "bookingid": 299
+    },
+    {
+        "bookingid": 489
+    },
+    {
+        "bookingid": 546
+    },
+    {
+        "bookingid": 41
+    },
+    {
+        "bookingid": 529
+    },
+    {
+        "bookingid": 566
+    },
+    {
+        "bookingid": 572
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 502
+    },
+    {
+        "bookingid": 269
+    },
+    {
+        "bookingid": 69
+    },
+    {
+        "bookingid": 310
+    },
+    {
+        "bookingid": 260
+    },
+    {
+        "bookingid": 33
+    },
+    {
+        "bookingid": 298
+    },
+    {
+        "bookingid": 249
+    },
+    {
+        "bookingid": 480
+    },
+    {
+        "bookingid": 71
+    },
+    {
+        "bookingid": 241
+    },
+    {
+        "bookingid": 185
+    },
+    {
+        "bookingid": 614
+    },
+    {
+        "bookingid": 582
+    },
+    {
+        "bookingid": 471
+    },
+    {
+        "bookingid": 333
+    },
+    {
+        "bookingid": 654
+    },
+    {
+        "bookingid": 158
+    },
+    {
+        "bookingid": 199
+    },
+    {
+        "bookingid": 360
+    },
+    {
+        "bookingid": 433
+    },
+    {
+        "bookingid": 657
+    },
+    {
+        "bookingid": 51
+    },
+    {
+        "bookingid": 264
+    },
+    {
+        "bookingid": 107
+    },
+    {
+        "bookingid": 457
+    },
+    {
+        "bookingid": 398
+    },
+    {
+        "bookingid": 607
+    },
+    {
+        "bookingid": 426
+    },
+    {
+        "bookingid": 258
+    },
+    {
+        "bookingid": 329
+    },
+    {
+        "bookingid": 86
+    },
+    {
+        "bookingid": 541
+    },
+    {
+        "bookingid": 210
+    },
+    {
+        "bookingid": 444
+    },
+    {
+        "bookingid": 394
+    },
+    {
+        "bookingid": 651
+    },
+    {
+        "bookingid": 142
+    },
+    {
+        "bookingid": 136
+    },
+    {
+        "bookingid": 293
+    },
+    {
+        "bookingid": 509
+    },
+    {
+        "bookingid": 425
+    },
+    {
+        "bookingid": 528
+    },
+    {
+        "bookingid": 317
+    },
+    {
+        "bookingid": 123
+    },
+    {
+        "bookingid": 35
+    },
+    {
+        "bookingid": 330
+    },
+    {
+        "bookingid": 682
+    },
+    {
+        "bookingid": 436
+    },
+    {
+        "bookingid": 77
+    },
+    {
+        "bookingid": 382
+    },
+    {
+        "bookingid": 104
+    },
+    {
+        "bookingid": 144
+    },
+    {
+        "bookingid": 73
+    },
+    {
+        "bookingid": 62
+    },
+    {
+        "bookingid": 507
+    },
+    {
+        "bookingid": 498
+    },
+    {
+        "bookingid": 354
+    },
+    {
+        "bookingid": 648
+    },
+    {
+        "bookingid": 531
+    },
+    {
+        "bookingid": 622
+    },
+    {
+        "bookingid": 553
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 424
+    },
+    {
+        "bookingid": 348
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 227
+    },
+    {
+        "bookingid": 469
+    },
+    {
+        "bookingid": 265
+    },
+    {
+        "bookingid": 91
+    },
+    {
+        "bookingid": 609
+    },
+    {
+        "bookingid": 629
+    },
+    {
+        "bookingid": 224
+    },
+    {
+        "bookingid": 119
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 291
+    },
+    {
+        "bookingid": 99
+    },
+    {
+        "bookingid": 396
+    },
+    {
+        "bookingid": 409
+    },
+    {
+        "bookingid": 115
+    },
+    {
+        "bookingid": 159
+    },
+    {
+        "bookingid": 42
+    },
+    {
+        "bookingid": 583
+    },
+    {
+        "bookingid": 684
+    },
+    {
+        "bookingid": 379
+    },
+    {
+        "bookingid": 604
+    },
+    {
+        "bookingid": 373
+    },
+    {
+        "bookingid": 524
+    }
+]); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:34 am</td>
+        <td>
+          getBookingsDetail is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="Poonam"
+          tag="Smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate creation of Booking detail on srver using POST request</p>
+            <p class="text-sm">
+              <span>10:12:34 am</span> / <span>00:00:01:334</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate creation of Booking detail on srver using POST request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:34 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:36 am</span>
+<span class='badge badge-default'>00:00:01:334</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:34 am</td>
+        <td>
+          Request details as follows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:34 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({"firstname":"werner","lastname":"kulas","totalprice":2937,"depositpaid":true,"bookingdates":{"checkin":"2024-08-05","checkout":"2024-08-10"},"additionalneeds":"Bloody clam for Dinner"}); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:34 am</td>
+        <td>
+          Content-Type application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:34 am</td>
+        <td>
+          Accept application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:35 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-3'></div>
+ <script>
+  function jsonTreeCreate3() { 
+   document.getElementById('code-block-json-3').innerHTML = JSONTree.create({
+    "bookingid": 698,
+    "booking": {
+        "firstname": "werner",
+        "lastname": "kulas",
+        "totalprice": 2937,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-08-05",
+            "checkout": "2024-08-10"
+        },
+        "additionalneeds": "Bloody clam for Dinner"
+    }
+}); 
+  }
+  jsonTreeCreate3();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:36 am</td>
+        <td>
+          createBookingTest is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="Poonam"
+          tag="Sanity"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validation creation of Booking detail using external file with POST request</p>
+            <p class="text-sm">
+              <span>10:12:36 am</span> / <span>00:00:01:007</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validation creation of Booking detail using external file with POST request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:36 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:37 am</span>
+<span class='badge badge-default'>00:00:01:007</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Sanity</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:36 am</td>
+        <td>
+          Request details as follows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:36 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create({
+    "firstname" : "Mathew",
+    "lastname" : "Stewart",
+    "totalprice" : 152,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2024-09-01",
+        "checkout" : "2024-09-05"
+    },
+    "additionalneeds" : "Breakfast"
+}); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:36 am</td>
+        <td>
+          Content-Type application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:36 am</td>
+        <td>
+          Accept application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:37 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-5'></div>
+ <script>
+  function jsonTreeCreate5() { 
+   document.getElementById('code-block-json-5').innerHTML = JSONTree.create({
+    "bookingid": 709,
+    "booking": {
+        "firstname": "Mathew",
+        "lastname": "Stewart",
+        "totalprice": 152,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-09-01",
+            "checkout": "2024-09-05"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}); 
+  }
+  jsonTreeCreate5();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:37 am</td>
+        <td>
+          createBookingWithExternalFile is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="Poonam"
+          tag="Smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate creation of multiple Booking details using DataProvide with POST request</p>
+            <p class="text-sm">
+              <span>10:12:37 am</span> / <span>00:00:01:040</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate creation of multiple Booking details using DataProvide with POST request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:37 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:38 am</span>
+<span class='badge badge-default'>00:00:01:040</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:37 am</td>
+        <td>
+          Request details as follows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:37 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-6'></div>
+ <script>
+  function jsonTreeCreate6() { 
+   document.getElementById('code-block-json-6').innerHTML = JSONTree.create({"firstname":"sherrill","lastname":"dach","totalprice":1716,"depositpaid":true,"bookingdates":{"checkin":"2024-08-01","checkout":"2024-08-02"},"additionalneeds":"Alaskan pink shrimp for Dinner"}); 
+  }
+  jsonTreeCreate6();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:37 am</td>
+        <td>
+          Content-Type application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:37 am</td>
+        <td>
+          Accept application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:38 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-7'></div>
+ <script>
+  function jsonTreeCreate7() { 
+   document.getElementById('code-block-json-7').innerHTML = JSONTree.create({
+    "bookingid": 719,
+    "booking": {
+        "firstname": "sherrill",
+        "lastname": "dach",
+        "totalprice": 1716,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-08-01",
+            "checkout": "2024-08-02"
+        },
+        "additionalneeds": "Alaskan pink shrimp for Dinner"
+    }
+}); 
+  }
+  jsonTreeCreate7();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:38 am</td>
+        <td>
+          postRequestWithMultiplData is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="Poonam"
+          tag="Smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate creation of multiple Booking details using DataProvide with POST request</p>
+            <p class="text-sm">
+              <span>10:12:38 am</span> / <span>00:00:01:078</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate creation of multiple Booking details using DataProvide with POST request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:38 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:39 am</span>
+<span class='badge badge-default'>00:00:01:078</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:38 am</td>
+        <td>
+          Request details as follows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:38 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-8'></div>
+ <script>
+  function jsonTreeCreate8() { 
+   document.getElementById('code-block-json-8').innerHTML = JSONTree.create({"firstname":"dino","lastname":"schroeder","totalprice":1520,"depositpaid":true,"bookingdates":{"checkin":"2024-08-03","checkout":"2024-08-04"},"additionalneeds":"Crab for Dinner"}); 
+  }
+  jsonTreeCreate8();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:38 am</td>
+        <td>
+          Content-Type application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:38 am</td>
+        <td>
+          Accept application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:39 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-9'></div>
+ <script>
+  function jsonTreeCreate9() { 
+   document.getElementById('code-block-json-9').innerHTML = JSONTree.create({
+    "bookingid": 729,
+    "booking": {
+        "firstname": "dino",
+        "lastname": "schroeder",
+        "totalprice": 1520,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-08-03",
+            "checkout": "2024-08-04"
+        },
+        "additionalneeds": "Crab for Dinner"
+    }
+}); 
+  }
+  jsonTreeCreate9();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:39 am</td>
+        <td>
+          postRequestWithMultiplData is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="Poonam"
+          tag="Smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate creation of multiple Booking details using DataProvide with POST request</p>
+            <p class="text-sm">
+              <span>10:12:39 am</span> / <span>00:00:01:006</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate creation of multiple Booking details using DataProvide with POST request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:39 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:40 am</span>
+<span class='badge badge-default'>00:00:01:006</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:39 am</td>
+        <td>
+          Request details as follows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:39 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-10'></div>
+ <script>
+  function jsonTreeCreate10() { 
+   document.getElementById('code-block-json-10').innerHTML = JSONTree.create({"firstname":"jennifer","lastname":"kling","totalprice":4710,"depositpaid":true,"bookingdates":{"checkin":"2024-08-05","checkout":"2024-08-06"},"additionalneeds":"Japanese sea bass for Dinner"}); 
+  }
+  jsonTreeCreate10();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:39 am</td>
+        <td>
+          Content-Type application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:39 am</td>
+        <td>
+          Accept application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:40 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-11'></div>
+ <script>
+  function jsonTreeCreate11() { 
+   document.getElementById('code-block-json-11').innerHTML = JSONTree.create({
+    "bookingid": 740,
+    "booking": {
+        "firstname": "jennifer",
+        "lastname": "kling",
+        "totalprice": 4710,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-08-05",
+            "checkout": "2024-08-06"
+        },
+        "additionalneeds": "Japanese sea bass for Dinner"
+    }
+}); 
+  }
+  jsonTreeCreate11();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:40 am</td>
+        <td>
+          postRequestWithMultiplData is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="Poonam"
+          tag="Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate updation of Booking detail using PUT request</p>
+            <p class="text-sm">
+              <span>10:12:40 am</span> / <span>00:00:02:051</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate updation of Booking detail using PUT request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:40 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:42 am</span>
+<span class='badge badge-default'>00:00:02:051</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:40 am</td>
+        <td>
+          Request details as follows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:40 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-12'></div>
+ <script>
+  function jsonTreeCreate12() { 
+   document.getElementById('code-block-json-12').innerHTML = JSONTree.create({"firstname":"carroll","lastname":"price","totalprice":2448,"depositpaid":true,"bookingdates":{"checkin":"2024-08-01","checkout":"2024-08-03"},"additionalneeds":"Bastard halibut for Dinner"}); 
+  }
+  jsonTreeCreate12();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:40 am</td>
+        <td>
+          Content-Type application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:40 am</td>
+        <td>
+          Accept application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:42 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-13'></div>
+ <script>
+  function jsonTreeCreate13() { 
+   document.getElementById('code-block-json-13').innerHTML = JSONTree.create({
+    "firstname": "carroll",
+    "lastname": "price",
+    "totalprice": 2448,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-01",
+        "checkout": "2024-08-03"
+    },
+    "additionalneeds": "Mackerel for Dinner"
+}); 
+  }
+  jsonTreeCreate13();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:42 am</td>
+        <td>
+          updateBookingDetail is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="Poonam"
+          tag="Regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate partial upadte of Booking Detail using PATCH request</p>
+            <p class="text-sm">
+              <span>10:12:42 am</span> / <span>00:00:02:153</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate partial upadte of Booking Detail using PATCH request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:42 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:44 am</span>
+<span class='badge badge-default'>00:00:02:153</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Regression</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:42 am</td>
+        <td>
+          Request details as follows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:42 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-14'></div>
+ <script>
+  function jsonTreeCreate14() { 
+   document.getElementById('code-block-json-14').innerHTML = JSONTree.create({"firstname":"sue","lastname":"hessel","totalprice":3783,"depositpaid":false,"bookingdates":{"checkin":"2024-08-05","checkout":"2024-08-07"},"additionalneeds":"Japanese spanish mackerel for Dinner"}); 
+  }
+  jsonTreeCreate14();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:42 am</td>
+        <td>
+          Content-Type application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:42 am</td>
+        <td>
+          Accept application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:44 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-15'></div>
+ <script>
+  function jsonTreeCreate15() { 
+   document.getElementById('code-block-json-15').innerHTML = JSONTree.create({
+    "firstname": "grisel",
+    "lastname": "greenfelder",
+    "totalprice": 3783,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-08-05",
+        "checkout": "2024-08-07"
+    },
+    "additionalneeds": "Japanese spanish mackerel for Dinner"
+}); 
+  }
+  jsonTreeCreate15();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:44 am</td>
+        <td>
+          partialUpdateBookingDetail is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author="Poonam"
+          tag="Smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate deletion Booking detail using DELETE request</p>
+            <p class="text-sm">
+              <span>10:12:44 am</span> / <span>00:00:02:067</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate deletion Booking detail using DELETE request</h5>
+<span class='badge badge-success'>08.05.2024 10:12:44 am</span>
+<span class='badge badge-danger'>08.05.2024 10:12:46 am</span>
+<span class='badge badge-default'>00:00:02:067</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Poonam</span>
+<span class="badge badge-pill badge-default">Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:44 am</td>
+        <td>
+          Request details as follows
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:44 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-16'></div>
+ <script>
+  function jsonTreeCreate16() { 
+   document.getElementById('code-block-json-16').innerHTML = JSONTree.create({"firstname":"scotty","lastname":"dibbert","totalprice":4433,"depositpaid":true,"bookingdates":{"checkin":"2024-08-06","checkout":"2024-08-10"},"additionalneeds":"Salmon roe for Dinner"}); 
+  }
+  jsonTreeCreate16();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:44 am</td>
+        <td>
+          Content-Type application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:12:44 am</td>
+        <td>
+          Accept application/json
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:46 am</td>
+        <td>
+          deleteBookingDetail is passed.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">Functional</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Functional</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:28 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Validate specific Booking detail based on BookingId using GET request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:33 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Validate all the Booking details are retrieved using GET request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:40 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Validate updation of Booking detail using PUT request</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">Smoke</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Smoke</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:34 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Validate creation of Booking detail on srver using POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:37 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Validate creation of multiple Booking details using DataProvide with POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:38 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Validate creation of multiple Booking details using DataProvide with POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:39 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Validate creation of multiple Booking details using DataProvide with POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:44 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Validate deletion Booking detail using DELETE request</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Regression</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Regression</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:42 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Validate partial upadte of Booking Detail using PATCH request</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Sanity</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Sanity</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:36 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Validation creation of Booking detail using external file with POST request</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+</span>
+<p class="name">Poonam</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Poonam</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:28 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Validate specific Booking detail based on BookingId using GET request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:33 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Validate all the Booking details are retrieved using GET request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:34 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Validate creation of Booking detail on srver using POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:36 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Validation creation of Booking detail using external file with POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:37 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Validate creation of multiple Booking details using DataProvide with POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:38 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Validate creation of multiple Booking details using DataProvide with POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:39 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Validate creation of multiple Booking details using DataProvide with POST request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:40 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Validate updation of Booking detail using PUT request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:42 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Validate partial upadte of Booking Detail using PATCH request</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:44 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Validate deletion Booking detail using DELETE request</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 5, 2024 10:12:27 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 5, 2024 10:12:46 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>10</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>10</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='37%'><b>19</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>32</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Validate specific Booking detail based on BookingId using GET request":5.389,"Validate all the Booking details are retrieved using GET request":1.024,"Validate creation of Booking detail on srver using POST request":1.334,"Validation creation of Booking detail using external file with POST request":1.007,"Validate creation of multiple Booking details using DataProvide with POST request":1.04,"Validate creation of multiple Booking details using DataProvide with POST request":1.078,"Validate creation of multiple Booking details using DataProvide with POST request":1.006,"Validate updation of Booking detail using PUT request":2.051,"Validate partial upadte of Booking Detail using PATCH request":2.153,"Validate deletion Booking detail using DELETE request":2.067
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Poonam</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Functional</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Smoke</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Regression</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Sanity</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 10,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 19,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 32
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
